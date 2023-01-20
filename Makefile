@@ -11,8 +11,9 @@ FFLAGS= -O3 -fbounds-check
 RM=del
 
 # Ficheros .o del codigo por orden
-OBJS= distribs.o\
-random.o\
+OBJS= random.o\
+distribs2.o\
+#distribs.o\
 #principal.o
 
 # Para compilar y crear ejecutable 'make' o 'make prog'
@@ -24,4 +25,4 @@ prog: $(OBJS)
 
 # Para borrar archivos antiguos 'make clean'
 clean:
-	$(RM) $(OBJS) *.dat
+	$(RM) $(OBJS) *.dat *.exe
