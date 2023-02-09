@@ -12,9 +12,9 @@ RM=del
 
 # Ficheros .o del codigo por orden
 OBJS= random.o\
-distribs2.o\
-#distribs.o\
-#principal.o
+distribsMerit.o\
+#distribs2.o\
+#distribs.o
 
 # Para compilar y crear ejecutable 'make' o 'make prog'
 prog: $(OBJS)
